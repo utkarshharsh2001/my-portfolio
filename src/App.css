@@ -1,11 +1,11 @@
-/* src/App.css */
+src/App.css
 
 .App {
   text-align: center;
   margin-top: 50px;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -14,4 +14,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
