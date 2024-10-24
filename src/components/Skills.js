@@ -1,5 +1,8 @@
 // src/components/Skills.js
 import React from "react";
+import SoftSkills from "./SoftSkills";
+import Communication from "./Communication";
+import ToolsPlatforms from "./ToolsPlatforms";
 
 const Skills = () => (
   <section>
@@ -37,6 +40,9 @@ const Skills = () => (
         </li>
       </ul>
     </div>
+    <SoftSkills />
+    <Communication />
+    <ToolsPlatforms />
   </section>
 );
 
