@@ -43,6 +43,8 @@ const Skills = () => (
     <SoftSkills />
     <Communication />
     <ToolsPlatforms />
+    <ToolsPlatforms />
+    <ToolsPlatforms />
   </section>
 );
 

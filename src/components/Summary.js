@@ -2,23 +2,33 @@
 import React from "react";
 
 const Summary = () => (
-  <section>
-    <h2>Summary</h2>
-    <p>
-      Utkarsh Harsh, currently at Navi Mumbai, Maharashtra, is a skilled
-      software developer with expertise in programming languages such as Java,
-      C++, and Python, and experience in big data management. His career
-      includes significant roles as a Java Developer and Python Developer at Jio
-      Platform Limited, where he architected a resilient Spring Boot backend for
-      SIEM applications and engineered a robust backend for the Price Engine
-      using FastAPI. Utkarsh's accomplishments include managing PostgreSQL
-      databases, streamlining data processing with Kafka streams, and designing
-      data storage strategies using MySQL and MongoDB. He holds a B.Tech. from
-      the Indian Institute of Technology, Delhi. Utkarsh is seeking
-      opportunities to leverage his programming and data management skills in
-      innovative projects. His internship experience at Success Numbers, where
-      he developed a warehouse picking application using Flutter, further
-      highlights his capability in software development.
+  <section className="summary-section">
+    <h2 className="summary-heading">Career Highlights</h2>
+    <p className="summary-text">
+      Utkarsh Harsh is an accomplished software developer based in Navi Mumbai,
+      Maharashtra, with a strong focus on Java and Python development. He has
+      extensive experience architecting robust backend systems, particularly at
+      Jio Platform Limited, where he spearheaded the design and implementation
+      of highly resilient SIEM applications using
+      <strong style={{ marginLeft: "5px", marginRight: "5px" }}>
+        Java (Spring Boot)
+      </strong>
+      and developed a scalable backend for the Price Engine using
+      <strong style={{ marginLeft: "5px", marginRight: "5px" }}>
+        Python (FastAPI)
+      </strong>
+      .
+    </p>
+    <p className="summary-text">
+      Utkarsh is skilled in managing large-scale PostgreSQL databases,
+      streamlining data flows through Kafka, and devising efficient data storage
+      solutions with MySQL and MongoDB. His deep expertise in Java and Python
+      has been pivotal to building performance-optimized systems that handle
+      complex data management tasks.
+    </p>
+    <p className="summary-text">
+      With a B.Tech. from the Indian Institute of Technology, Delhi, Utkarsh
+      combines academic rigor with real-world experience.
     </p>
   </section>
 );

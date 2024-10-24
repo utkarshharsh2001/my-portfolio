@@ -11,12 +11,10 @@ import Home from "./pages/Home";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
-import SoftSkills from "./components/SoftSkills";
-import Communication from "./components/Communication";
 import Achievements from "./components/Achievements";
-import ToolsPlatforms from "./components/ToolsPlatforms";
 import "./App.css";
 import "./Responsive.css";
+import Footer from "./components/Footer";
 
 const BASE_PATH = "/my-portfolio"; // Define your base path here
 
@@ -45,6 +43,7 @@ function App() {
           {/* <Route path={`${BASE_PATH}/tools`} element={<ToolsPlatforms />} /> */}
         </Routes>
       </MainLayout>
+      <Footer />
     </Router>
   );
 }
